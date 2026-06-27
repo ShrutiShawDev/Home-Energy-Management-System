@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS home_energy_management_system;
+Use home_energy_management_system;
