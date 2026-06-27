@@ -1,4 +1,4 @@
-package com.shruti.homeenergy.userservice.UserService;
+package com.shruti.homeenergy.userservice.service;
 
 import com.shruti.homeenergy.userservice.dto.UserDto;
 import com.shruti.homeenergy.userservice.entity.User;
@@ -16,7 +16,6 @@ public class UserService {
     }
 
     public UserDto createUser(UserDto input) {
-        log.info("Creating user: {}", input);
 
         final User createdUser = User.builder()
                 .name(input.getName())
@@ -32,14 +31,12 @@ public class UserService {
     }
 
     public UserDto getUserById(Long id) {
-        log.info("Getting user by id: {}", id);
         return userRepository.findById(id)
                 .map(this::toDto)
                 .orElse(null);
     }
 
     public void updateUser(Long id, UserDto dto) {
-        log.info("Updating user with id: {}", id);
         User user = userRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("User not found"));
 
@@ -54,7 +51,6 @@ public class UserService {
     }
 
     public void deleteUser(Long id) {
-        log.info("Deleting user with id: {}", id);
         User user = userRepository.findById(id).orElseThrow(() -> new IllegalArgumentException("User not found"));
 
         userRepository.delete(user);

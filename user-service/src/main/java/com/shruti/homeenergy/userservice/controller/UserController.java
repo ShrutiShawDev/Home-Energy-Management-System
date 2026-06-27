@@ -1,6 +1,6 @@
 package com.shruti.homeenergy.userservice.controller;
 
-import com.shruti.homeenergy.userservice.UserService.UserService;
+import com.shruti.homeenergy.userservice.service.UserService;
 import com.shruti.homeenergy.userservice.dto.UserDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
