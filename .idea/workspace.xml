@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7268eb5-fe4a-4f4e-a4d4-35e0893536bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Home-Energy-Management-System.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/shruti/homeenergy/userservice/UserService/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/shruti/homeenergy/userservice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/shruti/homeenergy/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/shruti/homeenergy/userservice/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingestion-service/src/main/java/com/shruti/homeenergy/ingestionservice/dto/EnergyUsageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/service/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device-service/src/test/java/com/shruti/homeenergy/deviceservice/DeviceServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/test/java/com/shruti/homeenergy/deviceservice/DeviceServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/shruti/homeenergy/userservice/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/com/shruti/homeenergy/userservice/UserServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +24,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Exception" />
+        <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -52,11 +53,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.IngestionServiceApplication.executor": "Run",
+    "JUnit.DeviceServiceApplicationTests.createDevices.executor": "Run",
+    "JUnit.UserServiceApplicationTests.addUsersToDB.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Shell Script.user-service.executor": "Run",
     "Spring Boot.DeviceServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication (1).executor": "Run",
@@ -66,10 +71,58 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/MY_SPRING/Projects/RESUME/Home-Energy-Management-System",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.DeviceServiceApplication">
+  <component name="RunManager" selected="Application.IngestionServiceApplication">
+    <configuration name="IngestionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shruti.homeenergy.ingestionservice.IngestionServiceApplication" />
+      <module name="ingestion-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shruti.homeenergy.ingestionservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeviceServiceApplicationTests.createDevices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="device-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shruti.homeenergy.deviceservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shruti.homeenergy.deviceservice" />
+      <option name="MAIN_CLASS_NAME" value="com.shruti.homeenergy.deviceservice.DeviceServiceApplicationTests" />
+      <option name="METHOD_NAME" value="createDevices" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplicationTests.addUsersToDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shruti.homeenergy.userservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shruti.homeenergy.userservice" />
+      <option name="MAIN_CLASS_NAME" value="com.shruti.homeenergy.userservice.UserServiceApplicationTests" />
+      <option name="METHOD_NAME" value="addUsersToDB" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,13 +161,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.IngestionServiceApplication" />
+      <item itemvalue="JUnit.DeviceServiceApplicationTests.createDevices" />
+      <item itemvalue="JUnit.UserServiceApplicationTests.addUsersToDB" />
       <item itemvalue="Spring Boot.DeviceServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication " />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.DeviceServiceApplication" />
+        <item itemvalue="Application.IngestionServiceApplication" />
+        <item itemvalue="JUnit.DeviceServiceApplicationTests.createDevices" />
+        <item itemvalue="JUnit.UserServiceApplicationTests.addUsersToDB" />
         <item itemvalue="Spring Boot.UserServiceApplication " />
+        <item itemvalue="Spring Boot.DeviceServiceApplication" />
       </list>
     </recent_temporary>
   </component>

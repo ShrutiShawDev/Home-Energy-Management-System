@@ -2,6 +2,7 @@ package com.shruti.homeenergy.deviceservice.service;
 
 import com.shruti.homeenergy.deviceservice.dto.DeviceDto;
 import com.shruti.homeenergy.deviceservice.entity.Device;
+import com.shruti.homeenergy.deviceservice.exception.DeviceNotFoundException;
 import com.shruti.homeenergy.deviceservice.repository.DeviceRepository;
 import lombok.Builder;
 import org.springframework.stereotype.Service;
@@ -32,7 +33,7 @@ public class DeviceService {
 
     public DeviceDto getDeviceById(Long id){
         Device device = deviceRepository.findById(id)
-                .orElseThrow(()-> new IllegalArgumentException("Device not found"));
+                .orElseThrow(()-> new DeviceNotFoundException("Device not found"));
 
         return mapToDto(device);
     }
@@ -41,7 +42,7 @@ public class DeviceService {
 
         Device existing = deviceRepository.findById(id)
                 .orElseThrow(() ->
-                        new IllegalArgumentException("Device not found with id " + id));
+                        new DeviceNotFoundException("Device not found with id " + id));
 
         existing.setName(deviceDto.getName());
         existing.setType(deviceDto.getType());
@@ -55,7 +56,7 @@ public class DeviceService {
 
     public void deleteDevice(Long id) {
         if (!deviceRepository.existsById(id)) {
-            throw new IllegalArgumentException("Device not found with id " + id);
+            throw new DeviceNotFoundException("Device not found with id " + id);
         }
 
         deviceRepository.deleteById(id);
