@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7268eb5-fe4a-4f4e-a4d4-35e0893536bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ingestion-service/src/main/java/com/shruti/homeenergy/ingestionservice/dto/EnergyUsageDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/service/DeviceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/device-service/src/test/java/com/shruti/homeenergy/deviceservice/DeviceServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/test/java/com/shruti/homeenergy/deviceservice/DeviceServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/test/java/com/shruti/homeenergy/userservice/UserServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/test/java/com/shruti/homeenergy/userservice/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingestion-service/src/main/java/com/shruti/homeenergy/ingestionservice/IngestionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingestion-service/src/main/java/com/shruti/homeenergy/ingestionservice/IngestionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingestion-service/src/main/java/com/shruti/homeenergy/ingestionservice/dto/EnergyUsageDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ingestion-service/src/main/java/com/shruti/homeenergy/ingestionservice/dto/EnergyUsageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ingestion-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ingestion-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Exception" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,6 +71,11 @@
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MY_SPRING\Projects\RESUME\Home-Energy-Management-System\ingestion-service\src\main\java\com\shruti\homeenergy\ingestionservice\" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.IngestionServiceApplication">
     <configuration name="IngestionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shruti.homeenergy.ingestionservice.IngestionServiceApplication" />
