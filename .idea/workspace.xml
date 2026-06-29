@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7268eb5-fe4a-4f4e-a4d4-35e0893536bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/dto/UserDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/1/_00002.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00002.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00003.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00004.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00005.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00006.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/influxd.bolt" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/influxd.bolt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,11 +26,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Exception" />
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,6 +66,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Shell Script.user-service.executor": "Run",
+    "Spring Boot.AlertServiceApplication.executor": "Run",
     "Spring Boot.DeviceServiceApplication.executor": "Run",
     "Spring Boot.IngestionServiceApplication.executor": "Run",
     "Spring Boot.UsageServiceApplication.executor": "Run",
@@ -85,7 +92,7 @@
       <recent name="E:\MY_SPRING\Projects\RESUME\Home-Energy-Management-System\ingestion-service\src\main\java\com\shruti\homeenergy\ingestionservice\" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.UsageServiceApplication">
+  <component name="RunManager" selected="Spring Boot.AlertServiceApplication">
     <configuration name="DeviceServiceApplicationTests.createDevices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="device-service" />
       <extension name="coverage">
@@ -102,22 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceApplicationTests.addUsersToDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shruti.homeenergy.userservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shruti.homeenergy.userservice" />
-      <option name="MAIN_CLASS_NAME" value="com.shruti.homeenergy.userservice.UserServiceApplicationTests" />
-      <option name="METHOD_NAME" value="addUsersToDB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,6 +117,20 @@
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <method v="2" />
+    </configuration>
+    <configuration name="AlertServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="alert-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shruti.homeenergy.alertservice.AlertServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shruti.homeenergy.alertservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DeviceServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
@@ -171,18 +176,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DeviceServiceApplicationTests.createDevices" />
-      <item itemvalue="JUnit.UserServiceApplicationTests.addUsersToDB" />
+      <item itemvalue="Spring Boot.AlertServiceApplication" />
       <item itemvalue="Spring Boot.DeviceServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
       <item itemvalue="Spring Boot.UsageServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AlertServiceApplication" />
         <item itemvalue="Spring Boot.UsageServiceApplication" />
         <item itemvalue="Spring Boot.DeviceServiceApplication" />
         <item itemvalue="Spring Boot.UserServiceApplication" />
         <item itemvalue="JUnit.DeviceServiceApplicationTests.createDevices" />
-        <item itemvalue="JUnit.UserServiceApplicationTests.addUsersToDB" />
       </list>
     </recent_temporary>
   </component>
