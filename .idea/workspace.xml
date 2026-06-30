@@ -5,18 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7268eb5-fe4a-4f4e-a4d4-35e0893536bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/alert-service/src/main/resources/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/000000006-000000001.tsm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/0/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/0/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/1/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/1/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/2/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/2/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/3/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/3/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/4/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/4/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/5/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/5/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/6/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/6/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/7/L0-00000002.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/7/L1-00000001.tsi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/fields.idxl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/0/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/0/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/1/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/1/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/2/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/2/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/3/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/3/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/4/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/4/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/5/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/5/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/6/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/6/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/7/L0-00000001.tsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/3/index/7/MANIFEST" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00011.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/3/_00002.wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/InsightServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/client/UsageClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/config/OllamaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/controller/InsightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/dto/DeviceDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/dto/InsightDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/dto/UsageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/java/com/shruti/homeenergy/insight_service/service/InsightService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insight-service/src/test/java/com/shruti/homeenergy/insight_service/InsightServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/controller/UsageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/dto/UsageDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/model/Device.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/1/_00002.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00002.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00003.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00004.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00005.wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00006.wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/controller/DeviceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/controller/DeviceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/repository/DeviceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/repository/DeviceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/service/DeviceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/device-service/src/main/java/com/shruti/homeenergy/deviceservice/service/DeviceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/1/000000001-000000001.tsm" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/1/000000003-000000002.tsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/1/000000003-000000001.tsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/000000001-000000001.tsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/000000002-000000001.tsm" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/000000004-000000002.tsm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/0/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/0/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/0/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/1/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/1/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/1/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/2/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/2/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/2/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/3/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/3/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/3/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/4/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/4/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/4/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/5/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/5/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/5/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/6/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/6/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/6/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/7/L0-00000001.tsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/7/MANIFEST" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/data/276bbed399d73436/autogen/2/index/7/MANIFEST" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/2/_00008.wal" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/engine/wal/276bbed399d73436/autogen/3/_00001.wal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/influxdb_data/influxd.bolt" beforeDir="false" afterPath="$PROJECT_DIR$/influxdb_data/influxd.bolt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/client/DeviceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/client/DeviceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/dto/DeviceDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/dto/DeviceDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/service/UsageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/usage-service/src/main/java/com/shruti/homeenergy/usageservice/service/UsageService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +104,9 @@
       <list>
         <option value="Enum" />
         <option value="Exception" />
+        <option value="Interface" />
         <option value="Record" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,62 +129,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.IngestionServiceApplication.executor": "Run",
-    "JUnit.DeviceServiceApplicationTests.createDevices.executor": "Run",
-    "JUnit.DeviceServiceApplicationTests.executor": "Run",
-    "JUnit.UserServiceApplicationTests.addUsersToDB.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Shell Script.user-service.executor": "Run",
-    "Spring Boot.AlertServiceApplication.executor": "Run",
-    "Spring Boot.DeviceServiceApplication.executor": "Run",
-    "Spring Boot.IngestionServiceApplication.executor": "Run",
-    "Spring Boot.UsageServiceApplication.executor": "Run",
-    "Spring Boot.UserServiceApplication (1).executor": "Run",
-    "Spring Boot.UserServiceApplication .executor": "Run",
-    "Spring Boot.UserServiceApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/MY_SPRING/Projects/RESUME/Home-Energy-Management-System",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.IngestionServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceServiceApplicationTests.createDevices.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DeviceServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceApplicationTests.addUsersToDB.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Shell Script.user-service.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.AlertServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DeviceServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.IngestionServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.InsightServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UsageServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication .executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MY_SPRING/Projects/RESUME/Home-Energy-Management-System&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.shruti.homeenergy.usageservice.dto" />
+      <recent name="com.shruti.homeenergy.insight_service.dto" />
+      <recent name="com.shruti.homeenergy.insight_service.client" />
       <recent name="com.shruti.homeenergy.usageservice.model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MY_SPRING\Projects\RESUME\Home-Energy-Management-System\ingestion-service\src\main\java\com\shruti\homeenergy\ingestionservice\" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.AlertServiceApplication">
-    <configuration name="DeviceServiceApplicationTests.createDevices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="device-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shruti.homeenergy.deviceservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shruti.homeenergy.deviceservice" />
-      <option name="MAIN_CLASS_NAME" value="com.shruti.homeenergy.deviceservice.DeviceServiceApplicationTests" />
-      <option name="METHOD_NAME" value="createDevices" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.InsightServiceApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,13 +195,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeviceServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="IngestionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="device-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shruti.homeenergy.deviceservice.DeviceServiceApplication" />
+      <module name="ingestion-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shruti.homeenergy.ingestionservice.IngestionServiceApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shruti.homeenergy.deviceservice.*" />
+          <option name="PATTERN" value="com.shruti.homeenergy.ingestionservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsightServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="insight-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shruti.homeenergy.insight_service.InsightServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shruti.homeenergy.insight_service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +252,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeviceServiceApplicationTests.createDevices" />
+      <item itemvalue="Spring Boot.IngestionServiceApplication" />
       <item itemvalue="Spring Boot.AlertServiceApplication" />
-      <item itemvalue="Spring Boot.DeviceServiceApplication" />
+      <item itemvalue="Spring Boot.InsightServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
       <item itemvalue="Spring Boot.UsageServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AlertServiceApplication" />
+        <item itemvalue="Spring Boot.InsightServiceApplication" />
         <item itemvalue="Spring Boot.UsageServiceApplication" />
-        <item itemvalue="Spring Boot.DeviceServiceApplication" />
+        <item itemvalue="Spring Boot.AlertServiceApplication" />
+        <item itemvalue="Spring Boot.IngestionServiceApplication" />
         <item itemvalue="Spring Boot.UserServiceApplication" />
-        <item itemvalue="JUnit.DeviceServiceApplicationTests.createDevices" />
       </list>
     </recent_temporary>
   </component>

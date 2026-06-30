@@ -7,6 +7,8 @@ import com.shruti.homeenergy.deviceservice.repository.DeviceRepository;
 import lombok.Builder;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Builder
 @Service
 public class DeviceService {
@@ -62,6 +64,12 @@ public class DeviceService {
         deviceRepository.deleteById(id);
     }
 
+    public List<DeviceDto> getAllDevicesByUserId(Long userId) {
+        List<Device> devices = deviceRepository.findAllByUserId(userId);
+        return devices.stream().map(this::mapToDto)
+                .toList();
+    }
+
     private DeviceDto mapToDto(Device device){
         DeviceDto deviceDto = DeviceDto.builder()
                 .id(device.getId())
@@ -73,6 +81,4 @@ public class DeviceService {
 
         return deviceDto;
     }
-
-
 }
