@@ -1,4 +1,4 @@
-HELP.md
+device-service/HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Docker volumes and database files
+volume-data/
+influxdb_data/
+
+# IntelliJ workspace file
+.idea/workspace.xml
