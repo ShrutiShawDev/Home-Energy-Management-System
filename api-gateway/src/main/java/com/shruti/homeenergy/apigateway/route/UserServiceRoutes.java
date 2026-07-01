@@ -1,6 +1,9 @@
 package com.shruti.homeenergy.apigateway.route;
 
+import static org.springframework.cloud.gateway.server.mvc.filter.FilterFunctions.setPath;
+
 import org.springframework.cloud.gateway.server.mvc.filter.CircuitBreakerFilterFunctions;
+import org.springframework.cloud.gateway.server.mvc.handler.GatewayRouterFunctions;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
@@ -31,6 +34,15 @@ public class UserServiceRoutes {
         return route().route(RequestPredicates.path("/fallbackRoute"),
                 request -> ServerResponse.status(HttpStatus.SERVICE_UNAVAILABLE)
                         .body("User Service is down"))
+                .build();
+    }
+
+    @Bean
+    public RouterFunction<ServerResponse> userServiceApiDocs(){
+        return GatewayRouterFunctions.route("user-service-api-docs")
+                .route(RequestPredicates.path("/docs/user-service/v3/api-docs"), http())
+                .before(uri("http://localhost:8080"))
+                .filter(setPath("/v3/api-docs"))
                 .build();
     }
 }
